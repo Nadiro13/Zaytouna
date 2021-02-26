@@ -13,6 +13,10 @@ def home():
 def index():
     return render_template("home.html")
 
+@app.route("/test1")
+def test1():
+    return render_template("test1.html")
+
 
 @app.route("/about")
 def about():
